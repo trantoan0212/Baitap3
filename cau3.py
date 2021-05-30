@@ -1,6 +1,4 @@
-a = "Hello Guy"
-def say(a):
-    a = "Vinh University"
+def say_hello():
+    a="Hello"
     print(a)
-print(a)
-say(a)
+say_hello()
