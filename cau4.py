@@ -1,7 +1,6 @@
 a = "Hello Guy"
-def say():
-        global a
-        a = "Vinh University"
-        print(a)
-say()
+def say(a):
+    a = "Vinh University"
+    print(a)
 print(a)
+say(a)
